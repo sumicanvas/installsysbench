@@ -16,15 +16,14 @@ sudo rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-202
 ## 3.Mysql 관련 라이브러리 설치
 - MySQL 을 테스트할 것이기 때문에 이 부분이 필요
 
-sudo dnf install https://repo.mysql.com/mysql80-community-release-el9-1.noarch.rpm
+sudo dnf install https://repo.mysql.com/mysql80-community-release-el9-1.noarch.rpm  
 <img width="685" height="603" alt="image" src="https://github.com/user-attachments/assets/9ccbe065-3cbf-4f3f-8dcd-dca0863671b5" />
 
-
-sudo dnf module list mysql
+sudo dnf module list mysql 
 <img width="686" height="206" alt="image" src="https://github.com/user-attachments/assets/0286e3b7-a7bc-4eda-8c30-061db430a248" />
 
 
-sudo dnf install --nogpgcheck mysql-community-devel openssl-devel
+sudo dnf install --nogpgcheck mysql-community-devel openssl-devel  
 <img width="829" height="646" alt="image" src="https://github.com/user-attachments/assets/83c6200b-fc92-4885-8965-8eb6d54082ee" />
 
 ### 만약 이전에 시도했다가 에러가 났다면 캐시 클린 후 다시 설치 시도
