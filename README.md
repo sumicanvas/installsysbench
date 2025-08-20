@@ -2,13 +2,16 @@
 How to install sysbench for benchmark testing.
 
 ## 0. 설치 환경
-오라클 클라우드(OCI) VM 환경
+오라클 클라우드(OCI) VM 환경  
+
 OS : OL 9
 
+  
 ## 1.Dependency설치
 
 sudo yum -y install make automake libtool pkgconfig libaio-devel
 
+  
 ## 2.Mysql 관련 라이브러리 설치 전 GPG 키 설치 (mysql8.4에서는 반드시 필요함)
 sudo rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-202
 
@@ -30,8 +33,10 @@ sudo dnf install --nogpgcheck mysql-community-devel openssl-devel
 <img width="829" height="646" alt="image" src="https://github.com/user-attachments/assets/83c6200b-fc92-4885-8965-8eb6d54082ee" />
 
 ### 만약 이전에 시도했다가 에러가 났다면 캐시 클린 후 다시 설치 시도
-sudo dnf clean all
-sudo dnf clean packages
+sudo dnf clean all  
+
+sudo dnf clean packages  
+
 
 ## 4.설치파일 압축 해제
 tar -xvf sysbench-1.0.20.tar.gz 
