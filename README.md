@@ -9,7 +9,7 @@ OS : OL 9
 
 sudo yum -y install make automake libtool pkgconfig libaio-devel
 
-## 2.Mysql 관련 라이브러리 설치 전 GPG 키 설치
+## 2.Mysql 관련 라이브러리 설치 전 GPG 키 설치 (mysql8.4에서는 반드시 필요함)
 sudo rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-202
 
 
