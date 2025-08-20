@@ -71,8 +71,10 @@ sudo make install
 
 
 ## 9. 환경 변수 설정
-vi /home/opc/.bashrc 
-export PATH=$PATH:$HOME/bin:/usr/sysbench/bin
+vi /home/opc/.bashrc   
+
+export PATH=$PATH:$HOME/bin:/usr/sysbench/bin  
+
 
 
 ## 10. 버전 확인
