@@ -39,6 +39,9 @@ sudo dnf clean packages
 
 
 ## 4.설치파일 압축 해제
+
+https://github.com/akopytov/sysbench/releases/tag/1.0.20  
+
 tar -xvf sysbench-1.0.20.tar.gz 
 
 cd sysbench-1.0.20/
